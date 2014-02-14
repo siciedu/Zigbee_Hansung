@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zigbee_RoboRobo", "Zigbee_RoboRobo\Zigbee_RoboRobo.vcxproj", "{F1F6BA4D-A243-4E18-8036-55118A46D86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F6BA4D-A243-4E18-8036-55118A46D86D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1F6BA4D-A243-4E18-8036-55118A46D86D}.Debug|Win32.Build.0 = Debug|Win32
+		{F1F6BA4D-A243-4E18-8036-55118A46D86D}.Release|Win32.ActiveCfg = Release|Win32
+		{F1F6BA4D-A243-4E18-8036-55118A46D86D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
