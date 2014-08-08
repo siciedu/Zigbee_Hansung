@@ -28,7 +28,7 @@ int zgb_initialize(int mode, int devIndex )
 	}
 	else if (mode == MODE_UCR)
 	{
-		if( zgb_hal_open( devIndex, 115200 ) == 0) // Always fixed baudrate
+		if( zgb_hal_open( devIndex, 57600 ) == 0) // Always fixed baudrate
 			return 0;
 	}
 	else
