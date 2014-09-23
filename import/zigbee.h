@@ -7,11 +7,11 @@ extern "C"
 {
 	#endif
 	///////////// device control methods ////////////////////////
-	int __stdcall zgb_initialize( int devIndex );
+	int __stdcall zgb_initialize(int mode, int devIndex);
 	void __stdcall zgb_terminate();
 
 	////////// communication methods ///////////////////////
-	int __stdcall zgb_tx_data(int data);
+	int __stdcall zgb_tx_data(unsigned char* buf, int len);
 	int __stdcall zgb_rx_check();
 	int __stdcall zgb_rx_data();
 	int __stdcall zgb_rx_buf(unsigned char *buf, int len);

@@ -1,4 +1,4 @@
-LIBRARY	"zigbee"
+LIBRARY	"zigbee_Hansung"
 
 EXPORTS
 	zgb_initialize
